@@ -23,4 +23,10 @@ class MethodsQuizTest < MiniTest::Test
 		assert_equal "string", @m.not_string(2)
 
 	end
+	def test_icy_hot
+		assert_equal true, @m.icy_hot(0)
+		assert_equal false, @m.icy_hot(100)
+		assert_equal false, @m.icy_hot(200)
+		assert_equal false, @m.icy_hot(300)
+	end
 end

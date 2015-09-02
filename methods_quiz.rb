@@ -22,7 +22,14 @@ module MethodsQuiz
 		
 	end
 	# TODO - write icy_hot?
-	
+	def icy_hot(i, h)
+		if (i <= 0)
+			true
+		else (h >= 100)
+			false
+		end
+		
+	end
 	# TODO - write closer_to
 
 	# TODO - write two_as_one?
