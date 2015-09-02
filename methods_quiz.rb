@@ -31,7 +31,17 @@ module MethodsQuiz
 		
 	end
 	# TODO - write closer_to
-
+	def closer_to(x, y, z)
+		if (y < x <= z ==10)
+			"x is closer"
+		else (x < y <= z == 10)
+			"y is closer"
+			if (y == x) && (x == y)
+				0
+			end
+		end
+	
+	end
 	# TODO - write two_as_one?
 
 	# TODO - write pig_latinify
