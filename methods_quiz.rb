@@ -37,7 +37,7 @@ module MethodsQuiz
 		else (x < y <= z == 10)
 			"y is closer"
 			if (y == x) && (x == y)
-				0
+				0 
 			end
 		end
 	
