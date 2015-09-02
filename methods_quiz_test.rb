@@ -30,3 +30,4 @@ class MethodsQuizTest < MiniTest::Test
 		assert_equal false, @m.icy_hot(300)
 	end
 end
+
